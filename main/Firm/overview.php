@@ -53,11 +53,11 @@ if($_SESSION["zalogowany"]!=1){
 else {?>
 
 		<div class="search">
-    Wyszukaj po imieniu : <input type="text" id="input_firm" onkeyup="SearchNameFirm()" placeholder="Nazwa firmy">
+    Wyszukaj po nazwie firmy : <input type="text" id="input_firm" onkeyup="SearchNameFirm()" placeholder="Nazwa firmy">
 	Wyszukaj po NIP : <input type="text" id="input_firm1" onkeyup="SearchNIP()" placeholder="NIP">
 	Wyszukaj po numerze Klienta : <input type="text" id="input_firm2" onkeyup="SearchNumberFirm()" placeholder="Numer Klienta">
 </div><?
-echo '<h2>Lista wszystkich umów Klientów Firmowych</h2>';
+echo '<h2>Lista wszystkich umów Klientów Biznesowych</h2>';
    try
    {
       $conn = new PDO('mysql:host=localhost;dbname=aplikacja', 'admin', 'Webmaster2017');

@@ -70,27 +70,24 @@ else {
             ID_cus_ind = :ID_cus_ind,
           name_cus_ind = :name_cus_ind,
           surname_cus_ind = :surname_cus_ind,
-          pesel_cus_ind,
-          number_cus_ind,
-          tel_cus_ind,
-          email_cus_ind,
-          country_corr_cus_ind,
-          code_corr_cus_ind,
-          city_corr_cus_ind,
-          street_corr_cus_ind,
-          numberhouse_corr_cus_ind,
-          numberflat_corr_cus_ind,
-          country_reg_cus_ind,
-          code_reg_cus_ind,
-          city_reg_cus_ind,
-          street_reg_cus_ind,
-          numberhouse_reg_cus_ind,
-          numberflat_reg_cus_ind,
-          period_cus_ind
-            
-            
-            
-            ";
+          pesel_cus_ind = :pesel_cus_ind,
+          number_cus_ind = :number_cus_ind,
+          tel_cus_ind = :tel_cus_ind,
+          email_cus_ind = :email_cus_ind,
+          country_corr_cus_ind = :country_corr_cus_ind,
+          code_corr_cus_ind = :code_corr_cus_ind,
+          city_corr_cus_ind = :city _corr_cus_ind,
+          street_corr_cus_ind = :street_corr_cus_ind,
+          numberhouse_corr_cus_ind = :numberhouse_corr_cus_ind,
+          numberflat_corr_cus_ind =:numberflat_corr_cus_ind,
+          country_reg_cus_ind = :country_reg_cus_ind,
+          code_reg_cus_ind = :code_reg_cus_ind,
+          city_reg_cus_ind = :city_reg_cus_ind,
+          street_reg_cus_ind = :street_reg_cus_ind,
+          numberhouse_reg_cus_ind = :numberhouse_reg_cus_ind,
+          numberflat_reg_cus_ind = :numberflat_reg_cus_ind,
+          period_cus_ind = :period_cus_ind
+          ";
          }
          ?> 
         <div class="container-fluid">

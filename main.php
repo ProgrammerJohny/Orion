@@ -80,7 +80,7 @@ else{
 <p>Kliknij ten kafelek aby przejść do dodania Klienta indywidualnego</p>
   </div>
   <div class="categories" onclick="addFirmowy();">
-    <h3>Dodaj Klienta Firmowego do bazy</h3>
+    <h3>Dodaj Klienta Biznesowego do bazy</h3>
 <p>Kliknij ten kafelek aby przejść do dodania Klienta indywidualnego</p>
   </div>
 </div>
@@ -90,7 +90,7 @@ else{
 <p>Kliknij ten kafelek aby przejść do edytowania danych Klienta indywidualnego</p>
   </div>
   <div class="categories" onclick="editFirmowy();">
-    <h3>Przeglądaj i edytuj dane Klienta firmowego</h3>
+    <h3>Przeglądaj i edytuj dane Klienta Biznesowego</h3>
     <p>Kliknij ten kafelek aby przejść do edytowania danych Klienta firmowego</p>
   </div>
   </div>
