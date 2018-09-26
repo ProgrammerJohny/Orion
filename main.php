@@ -81,7 +81,7 @@ else{
   </div>
   <div class="categories" onclick="addFirmowy();">
     <h3>Dodaj Klienta Biznesowego do bazy</h3>
-<p>Kliknij ten kafelek aby przejść do dodania Klienta indywidualnego</p>
+<p>Kliknij ten kafelek aby przejść do dodania Klienta Biznesowego</p>
   </div>
 </div>
   <div class="col-sm-4">
@@ -91,7 +91,7 @@ else{
   </div>
   <div class="categories" onclick="editFirmowy();">
     <h3>Przeglądaj i edytuj dane Klienta Biznesowego</h3>
-    <p>Kliknij ten kafelek aby przejść do edytowania danych Klienta firmowego</p>
+    <p>Kliknij ten kafelek aby przejść do edytowania danych Klienta Biznesowego</p>
   </div>
   </div>
 
