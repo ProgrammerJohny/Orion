@@ -63,7 +63,7 @@ echo '<h2>Lista wszystkich umów Klientów Indywidualnych</h2>';
       $conn = new PDO('mysql:host=localhost;dbname=aplikacja', 'admin', 'Webmaster2017');
       $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			$conn->query("set names utf8");
-      $stmt = $conn -> query('SELECT ID_cus_ind,name_cus_ind,surname_cus_ind,pesel_cus_ind,number_cus_ind,email_cus_ind,contract_status_cus_ind FROM customersInd');
+      $stmt = $conn -> query('SELECT * FROM customersInd');
       echo '<table class="table" id="TableInd">';
 			echo '<tr class="alert-success">';
 			echo '<th>ID</th>';
