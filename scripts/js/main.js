@@ -21,7 +21,7 @@ function viewArchiwum()
 }
 function viewRaporty()
 {
-  window.open("../reports/index.php","_self")
+  window.open("reports/index.php","_self")
 }
 function sendMail()
 {
