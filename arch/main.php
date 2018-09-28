@@ -45,7 +45,7 @@ function ShowLogin($komunikat=""){
   <a href="Ind/contracts.php" class="badge">Klienci Indywidualni</a>
       </div>
       <div class="panel-body">
-  <a href="Firm/contracts.php" class="badge">Firmy</a>
+  <a href="Firm/contracts.php" class="badge">Klienci Biznesowi</a>
   </div>
 
     </div>
@@ -58,7 +58,7 @@ function ShowLogin($komunikat=""){
         <a href="Ind/documents.php" class="badge">Klienci Indywidualni</a>
         </div>
         <div class="panel-body">
-    <a href="Firm/documents.php" class="badge">Firmy</a>
+    <a href="Firm/documents.php" class="badge">Klienci Biznesowi</a>
     </div>
 </div>
 <button class=" btn btn-default"><a href="../main.php">Powrót do strony głównej</a></button>
