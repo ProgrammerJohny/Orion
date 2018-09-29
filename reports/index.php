@@ -30,22 +30,65 @@ function ShowLogin($komunikat=""){
 
 
 	<script src="../../scripts/js/main.js"></script>
-	<title>ORION - Archiwum - Strona Główna - Klienci Indywidualni - Umowy</title>
+	<title>ORION - Archiwum - Strona Główna</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="../../css/style.css" />
 </head>
 <body>
 <div class="container-fluid">
-<div class="card">
-  <div class="card-body">
-    <a href="#" role="button" class="btn btn-info">Przejdź do raportów dla Klientów Indywidualnych</a>
+
+<div class="card text-center card-tex-white bg-primary mb-3">
+  <div class="card-header">
+    Klient Indywidualny
   </div>
-</div>
-<div class="card">
   <div class="card-body">
-    <a href="#" role="button" class="btn btn-info">Przejdź do raportów dla Klientów Biznesowych</a>
+    <h5 class="card-title">Umowy </h5>
+    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Indywidualnych</p>
+    <a href="#" class="btn btn-secondary">Przejdź</a>
   </div>
+
 </div>
+<div>
+<div class="card text-center card-tex-white bg-primary mb-3">
+  <div class="card-header">
+    Klient Binzesowy
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Umowy </h5>
+    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Biznesowych</p>
+    <a href="#" class="btn btn-secondary">Przejdź</a>
+  </div>
+
+</div>
+
+</div> <!-- end of div card-text-->
+<hr/>
+<div class="card text-center card-tex-white bg-secondary mb-3">
+  <div class="card-header">
+    Klient Indywidualny
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Umowy </h5>
+    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Indywidualnych</p>
+    <a href="#" class="btn btn-primary">Przejdź</a>
+  </div>
+
+</div>
+<div>
+<div class="card text-center card-tex-white bg-secondary mb-3">
+  <div class="card-header">
+    Klient Binzesowy
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Umowy </h5>
+    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Biznesowych</p>
+    <a href="#" class="btn btn-primary">Przejdź</a>
+  </div>
+
+</div>
+
+</div> <!-- end of div card-text-->
+
 </div>
 <button class=" btn btn-link"><a href="../../main.php">Powrót do strony głównej serwisu</a></button>
 </body>
