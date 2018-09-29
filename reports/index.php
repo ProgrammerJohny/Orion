@@ -42,52 +42,30 @@ function ShowLogin($komunikat=""){
     Klient Indywidualny
   </div>
   <div class="card-body">
-    <h5 class="card-title">Umowy </h5>
-    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Indywidualnych</p>
-    <a href="#" class="btn btn-secondary">Przejdź</a>
+    <h5 class="card-title">Raport ilościowy </h5>
+    <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
+    <a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
 
 </div>
 <div>
 <div class="card text-center card-tex-white bg-primary mb-3">
   <div class="card-header">
-    Klient Binzesowy
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Umowy </h5>
-    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Biznesowych</p>
-    <a href="#" class="btn btn-secondary">Przejdź</a>
-  </div>
-
-</div>
-
-</div> <!-- end of div card-text-->
-<hr/>
-<div class="card text-center card-tex-white bg-secondary mb-3">
-  <div class="card-header">
     Klient Indywidualny
   </div>
   <div class="card-body">
-    <h5 class="card-title">Umowy </h5>
-    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Indywidualnych</p>
-    <a href="#" class="btn btn-primary">Przejdź</a>
-  </div>
-
-</div>
-<div>
-<div class="card text-center card-tex-white bg-secondary mb-3">
-  <div class="card-header">
-    Klient Binzesowy
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Umowy </h5>
-    <p class="card-text">Lista wszystkich umów zarchiwizowanych dla Klientów Biznesowych</p>
-    <a href="#" class="btn btn-primary">Przejdź</a>
+    <h5 class="card-title">Raport sprzedaży </h5>
+    <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
 
 </div>
 
-</div> <!-- end of div card-text-->
+
 
 </div>
 <button class=" btn btn-link"><a href="../../main.php">Powrót do strony głównej serwisu</a></button>
