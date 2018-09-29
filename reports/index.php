@@ -64,6 +64,34 @@ function ShowLogin($komunikat=""){
   </div>
 
 </div>
+<!-- end of section for individual Customers-->
+<div class="card text-center card-tex-white bg-primary mb-3">
+  <div class="card-header">
+    Klient Biznesowy
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Raport ilościowy </h5>
+    <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
+    <a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+  </div>
+
+</div>
+<div>
+<div class="card text-center card-tex-white bg-primary mb-3">
+  <div class="card-header">
+    Klient Bizneoswy
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Raport sprzedaży </h5>
+    <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+  </div>
+
+</div>
 
 
 
