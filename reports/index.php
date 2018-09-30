@@ -44,8 +44,10 @@ function ShowLogin($komunikat=""){
   <div class="card-body">
     <h5 class="card-title">Raport ilościowy </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
-  		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>	<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
-		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
+		<a href="#" class="btn btn-secondary">Ostatnie 30 dni [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 month"))?>]</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 year"))?>]</a>
+
   </div>
 
 </div>
@@ -58,8 +60,10 @@ function ShowLogin($komunikat=""){
     <h5 class="card-title">Raport sprzedaży </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
 		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
-		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
-		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+		<a href="#" class="btn btn-secondary">Ostatnie 30 dni [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 month"))?>]</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 year"))?>]</a>
+
+		</div>
   </div>
 
 </div>
@@ -72,8 +76,9 @@ function ShowLogin($komunikat=""){
     <h5 class="card-title">Raport ilościowy </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
 		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
-		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
-		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+		<a href="#" class="btn btn-secondary">Ostatnie 30 dni [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 month"))?>]</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 year"))?>]</a>
+
   </div>
 
 </div>
@@ -86,8 +91,9 @@ function ShowLogin($komunikat=""){
     <h5 class="card-title">Raport sprzedaży </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
 		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
-		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
-		<a href="#" class="btn btn-secondary">Ostatni rok</a>
+		<a href="#" class="btn btn-secondary">Ostatnie 30 dni [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 month"))?>]</a>
+		<a href="#" class="btn btn-secondary">Ostatni rok [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 year"))?>]</a>
+
   </div>
 
 </div>
