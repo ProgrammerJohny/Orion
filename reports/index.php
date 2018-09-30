@@ -44,8 +44,7 @@ function ShowLogin($komunikat=""){
   <div class="card-body">
     <h5 class="card-title">Raport ilościowy </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
-    <a href="#" class="btn btn-secondary">Ostatni tydzień</a>
-		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
+  		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>	<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
 		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
 
@@ -58,7 +57,7 @@ function ShowLogin($komunikat=""){
   <div class="card-body">
     <h5 class="card-title">Raport sprzedaży </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
-		<a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
 		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
 		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
@@ -72,7 +71,7 @@ function ShowLogin($komunikat=""){
   <div class="card-body">
     <h5 class="card-title">Raport ilościowy </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
-    <a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
 		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
 		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
@@ -86,7 +85,7 @@ function ShowLogin($komunikat=""){
   <div class="card-body">
     <h5 class="card-title">Raport sprzedaży </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
-		<a href="#" class="btn btn-secondary">Ostatni tydzień</a>
+		<a href="#" class="btn btn-secondary">Ostatni tydzień [<? echo date('d.m.Y')?> - <? echo date('d.m.Y',strtotime("-1 week"))?>]</a>
 		<a href="#" class="btn btn-secondary">Ostatni miesiąc</a>
 		<a href="#" class="btn btn-secondary">Ostatni rok</a>
   </div>
