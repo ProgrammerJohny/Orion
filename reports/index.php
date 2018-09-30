@@ -39,7 +39,7 @@ function ShowLogin($komunikat=""){
 
 <div class="card text-center card-tex-white bg-primary mb-3">
   <div class="card-header">
-    Klient Indywidualny
+    <i>Klient Indywidualny</i>
   </div>
   <div class="card-body">
     <h5 class="card-title">Raport ilościowy </h5>
@@ -52,8 +52,8 @@ function ShowLogin($komunikat=""){
 <div>
 <div class="card text-center card-tex-white bg-primary mb-3">
   <div class="card-header">
-    Klient Indywidualny
-  </div>
+    <i>Klient Indywidualny</i>
+	  </div>
   <div class="card-body">
     <h5 class="card-title">Raport sprzedaży </h5>
     <p class="card-text">Generuj raport w oparciu o wybrany okres czasu</p>
@@ -66,7 +66,7 @@ function ShowLogin($komunikat=""){
 <!-- end of section for individual Customers-->
 <div class="card text-center card-tex-white bg-primary mb-3">
   <div class="card-header">
-    Klient Biznesowy
+  <i>  Klient Biznesowy</i>
   </div>
   <div class="card-body">
     <h5 class="card-title">Raport ilościowy </h5>
@@ -80,7 +80,7 @@ function ShowLogin($komunikat=""){
 <div>
 <div class="card text-center card-tex-white bg-primary mb-3">
   <div class="card-header">
-    Klient Bizneoswy
+  <i>  Klient Bizneoswy</i>
   </div>
   <div class="card-body">
     <h5 class="card-title">Raport sprzedaży </h5>
