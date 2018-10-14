@@ -101,6 +101,6 @@ function ShowLogin($komunikat=""){
 
 
 </div>
-<button class=" btn btn-link"><a href="../../main.php">Powrót do strony głównej serwisu</a></button>
+<button class=" btn btn-link"><a href="../main.php">Powrót do strony głównej serwisu</a></button>
 </body>
 </html>
