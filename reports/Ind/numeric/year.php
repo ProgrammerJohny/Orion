@@ -32,9 +32,8 @@ $raport = fopen("Raport roczny ilościowy -".date('d.m.Y').' - '.date('d.m.Y',st
 
 fwrite($raport,"Raport wygenerowano:".date('d.m.Y H:i:s')."\n");
 foreach ($headers as $key ) {
-  echo "<b>";
+
   fwrite ($raport,$key."\t");
-  echo "</b>";
 }
 while($row = $stmt->fetch()) {
   fwrite($raport,"\n");
