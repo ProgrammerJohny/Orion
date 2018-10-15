@@ -60,7 +60,8 @@ while($row = $stmt->fetch()) {
   fwrite($raport,$row['contract_status_cus_ind']."\t");
 
 }
-echo "Raport wygenerowany!!<br><a href='index.php'>Powrót</a>";
+echo 'Raport wygenerowany!!<br>
+<a href="javascript:window.close()">Zamknij stronę</a>';
 }
 catch(PDOException $e) {
   echo "Błąd !!".$e->getMessage();
