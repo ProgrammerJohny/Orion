@@ -4,7 +4,10 @@ try {
   $conn = new PDO('mysql:host=localhost;dbname=aplikacja', 'admin', 'Webmaster2017');
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $conn->query("set names utf8");
-  $stmt = $conn -> query('SELECT * FROM customersInd');
+    $data = date('d.m.Y H:i:s');
+    $data1 = date('d.m.Y');
+    $data2 = date('d.m.Y',strtotime("-1 year"));
+  $stmt = $conn -> query("SELECT * FROM customersInd ");
   $headers = array(
   'ID_cus_ind' =>'ID',
   'name_cus_ind'=>'Imię',
@@ -27,16 +30,17 @@ try {
   'numberflat_corr_cus_ind'=>'Numer lokalu - zamieszkanie',
   'period_cus_ind'=>'Data podpisania umowy',
   'contract_status_cus_ind'=>'Aktualny status umowy');
-  $data = date('d.m.Y H:i:s');
+
 $raport = fopen("Raport roczny ilościowy -".date('d.m.Y').' - '.date('d.m.Y',strtotime("-1 year"))."- Klienci Indywidualni.xls","w");
 
 fwrite($raport,"Raport wygenerowano:".date('d.m.Y H:i:s')."\n");
+fwrite($raport,"Jeżeli status umowy = 0, oznacza to, że jest ona Aktywna\n");
 foreach ($headers as $key ) {
-
   fwrite ($raport,$key."\t");
 }
 while($row = $stmt->fetch()) {
   fwrite($raport,"\n");
+
   fwrite($raport,$row['ID_cus_ind']."\t");
   fwrite($raport,$row['name_cus_ind']."\t");
   fwrite($raport,$row['surname_cus_ind']."\t");
@@ -57,6 +61,7 @@ while($row = $stmt->fetch()) {
   fwrite($raport,$row['numberhouse_corr_cus_ind']."\t");
   fwrite($raport,$row['numberflat_corr_cus_ind']."\t");
   fwrite($raport,$row['period_cus_ind']."\t");
+
   fwrite($raport,$row['contract_status_cus_ind']."\t");
 
 }

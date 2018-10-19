@@ -69,8 +69,9 @@ else {
   				echo '<div class="container-fluid">
           <div class="panel panel-primary">
           <div class="panel-heading">
-          <h3 class="panel-title">Dane podstawowe</h3>
+          <h3 class="panel-title">Dane podstawowe <button class="btn-sm btn-success">Edytuj dane</button></h3>
           </div>
+
           <p class="alert-info">Umowa ważna od '.$details['period_cus_ind'].'</p>
           <p><input type="hidden" placeholder="'.$details['ID_cus_ind'].'/"></p>
           <p><b>Imię:</b> '.$details['name_cus_ind'].'</p>
@@ -83,7 +84,7 @@ else {
 
           <div class="panel panel-primary">
           <div class="panel-heading">
-          <h3 class="panel-title">Adres do korespondencji</h3>
+          <h3 class="panel-title">Adres do korespondencji <button class="btn-sm btn-success">Edytuj dane</button></h3>
           </div>
           <p><b>Kraj:</b> '.$details['country_corr_cus_ind'].'</p>
           <p><b>Kod pocztowy:</b> '.$details['code_corr_cus_ind'].'</p>
@@ -94,7 +95,7 @@ else {
           </div>
           <div class="panel panel-primary">
           <div class="panel-heading">
-          <h3 class="panel-title">Adres zameldowania</h3>
+          <h3 class="panel-title">Adres zameldowania <button class="btn-sm btn-success">Edytuj dane</button></h3>
           </div>
           <p><b>Kraj:</b> '.$details['country_reg_cus_ind'].'</p>
           <p><b>Kod pocztowy:</b> '.$details['code_reg_cus_ind'].'</p>

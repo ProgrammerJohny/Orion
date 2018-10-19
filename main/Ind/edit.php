@@ -89,7 +89,7 @@ else {
           period_cus_ind = :period_cus_ind
           ";
          }
-         ?> 
+         ?>
         <div class="container-fluid">
          <div class="panel panel-primary">
          <div class="panel-heading">
