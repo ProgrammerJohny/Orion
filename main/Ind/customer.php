@@ -70,7 +70,7 @@ else {
           <div class="panel panel-primary">
           <div class="panel-heading">
 					<form method="POST">
-          <h3 class="panel-title">Dane podstawowe <a href="edit.php?basic&id='.$details['ID_cus_ind'].'" class="badge">Edytuj dane</a></h3>
+          <h3 class="panel-title">Dane podstawowe <a href="edit.php?basic&id='.$details['ID_cus_ind'].'" class="badge" name="basic">Edytuj dane</a></h3>
 
           </div>
 
