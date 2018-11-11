@@ -59,16 +59,22 @@ else {
   		$pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       $pdo->query("set names utf8");
 
-# $sql = "DELETE FROM customersInd WHERE ID_cus_ind =  :id";
+
+#1 zmiana contract_status_cus_ind ==2[Wypowiedziana]
+#2 date_expired jako data zaciągnięta z pola Data operacji
+#3 z <input> typu „file” pobrać skan dokumentu i dodać kolumnę w bazie o nazwie „file”
+#4 przekopiowanie danych z tabeli customersind do customersind_arch
+
+# $sql = "UPDATE contract_status_cus_ind SET ==2 WHERE ID_cus_ind = :id;"
 # $stmt = $pdo->prepare($sql);
-# $stmt->bindParam(':id', $_POST['ID_cus_ind'], PDO::PARAM_INT);
+# $stmt->bindParam("id",$_POST['ID_cus_ind'], PDO::PARAM_INT);
 # $stmt->execute();
-  		if(isset($_GET['id'])) // 1
+  		if(isset($_GET['id']))
   		{
-  			$stmt = $pdo -> prepare('SELECT * FROM customersInd WHERE `ID_cus_ind` = :id'); // 2
+  			$stmt = $pdo -> prepare('SELECT * FROM customersInd WHERE `ID_cus_ind` = :id');
   			$stmt -> bindValue(':id', $_GET['id'], PDO::PARAM_INT);
-  			$stmt -> execute(); // 3
-  			if($details = $stmt -> fetch()) // 4
+  			$stmt -> execute();
+  			if($details = $stmt -> fetch()) 
   			{
           echo '<center>';
             echo '<h4>Potwierdź dane do usunięcia</h4>';
